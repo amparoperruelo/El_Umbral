@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="Selección de vinos El Umbral. Elegí tus vinos y armá tu pedido." name="description"/>
+  <title>
+   Vinos | El Umbral
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&amp;family=Montserrat:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="estilos.css" rel="stylesheet"/>
+ </head>
+ <body data-page="vinos">
+  <header class="site-header">
+   <a class="brand" href="index.html">
+    <img alt="El Umbral" src="imagenes/logo.png"/>
+   </a>
+   <button aria-controls="main-nav" aria-expanded="false" aria-label="Abrir menú" class="menu-toggle">
+    ☰
+   </button>
+   <nav class="nav" id="main-nav">
+    <a data-page="index" href="index.html">
+     HOME
+    </a>
+    <a data-page="menu" href="menu.html">
+     MENÚ
+    </a>
+    <a data-page="vinos" href="vinos.html">
+     VINOS
+    </a>
+    <a data-page="sobrenosotros" href="sobrenosotros.html">
+     SOBRE NOSOTROS
+    </a>
+    <a data-page="reservas" href="reservas.html">
+     RESERVAS
+    </a>
+    <button aria-controls="cart-panel" aria-expanded="false" aria-label="Abrir carrito" class="cart-trigger" type="button">
+     <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7" viewbox="0 0 24 24">
+      <circle cx="9" cy="21" r="1">
+      </circle>
+      <circle cx="20" cy="21" r="1">
+      </circle>
+      <path d="M1 2h3l2.4 12.4a2 2 0 0 0 2 1.6H19a2 2 0 0 0 2-1.6L22 7H5">
+      </path>
+     </svg>
+     <span aria-label="productos en el carrito" class="cart-count">
+      0
+     </span>
+    </button>
+   </nav>
+  </header>
+  <main>
+   <section aria-label="Presentación de vinos" class="wine-hero">
+    <video autoplay="" class="wine-hero-video" loop="" muted="" playsinline="" poster="imagenes/copavino-home.jpg" preload="metadata">
+     <source src="imagenes/seccion-vinos.mp4" type="video/mp4"/>
+     Tu navegador no admite video HTML5.
+    </video>
+    <div aria-hidden="true" class="wine-hero-shade">
+    </div>
+    <h1 class="sr-only">
+     VINOS DE EL UMBRAL
+    </h1>
+   </section>
+   <section class="wine-catalog container" id="catalogo">
+    <h2>
+     VINOS
+    </h2>
+    <div class="wine-list">
+     <article class="wine-product" data-id="malbec">
+      <div class="wine-product-image">
+       <img alt="Botella de Malbec de Altura" loading="lazy" src="imagenes/cabernet-vinos (2).png"/>
+      </div>
+      <div class="wine-product-content">
+       <h3>
+        Malbec de Altura
+       </h3>
+       <p>
+        Mendoza · Malbec. Vino de cuerpo medio a alto, con notas de frutos negros, especias y un final persistente. Ideal para acompañar carnes rojas y preparaciones intensas.
+       </p>
+       <button class="btn add-wine" data-id="malbec" type="button">
+        AGREGAR AL CARRITO
+       </button>
+      </div>
+     </article>
+     <article class="wine-product" data-id="cabernet">
+      <div class="wine-product-image">
+       <img alt="Botella de Cabernet Sauvignon Reserva" loading="lazy" src="imagenes/cabernet-vinos (1).png"/>
+      </div>
+      <div class="wine-product-content">
+       <h3>
+        Cabernet Sauvignon Reserva
+       </h3>
+       <p>
+        Mendoza · Cabernet Sauvignon. Estructurado y elegante, con notas de frutos maduros, especias y madera. Recomendado para cortes de carne y cordero.
+       </p>
+       <button class="btn add-wine" data-id="cabernet" type="button">
+        AGREGAR AL CARRITO
+       </button>
+      </div>
+     </article>
+     <article class="wine-product" data-id="chardonnay">
+      <div class="wine-product-image">
+       <img alt="Botella de Chardonnay de Montaña" loading="lazy" src="imagenes/blancomontaña-vinos.png"/>
+      </div>
+      <div class="wine-product-content">
+       <h3>
+        Chardonnay de Montaña
+       </h3>
+       <p>
+        Mendoza · Chardonnay. Fresco y equilibrado, con notas cítricas y frutales. Ideal para pescados, vegetales y preparaciones con salsas suaves.
+       </p>
+       <button class="btn add-wine" data-id="chardonnay" type="button">
+        AGREGAR AL CARRITO
+       </button>
+      </div>
+     </article>
+     <article class="wine-product" data-id="torrontes">
+      <div class="wine-product-image">
+       <img alt="Botella de Torrontés de Altura" loading="lazy" src="imagenes/torrontes-vinos.png"/>
+      </div>
+      <div class="wine-product-content">
+       <h3>
+        Torrontés de Altura
+       </h3>
+       <p>
+        Salta · Torrontés. Aromático, floral y fresco, con una acidez marcada. Una buena opción para entradas y platos de pescado.
+       </p>
+       <button class="btn add-wine" data-id="torrontes" type="button">
+        AGREGAR AL CARRITO
+       </button>
+      </div>
+     </article>
+     <article class="wine-product" data-id="rose">
+      <div class="wine-product-image">
+       <img alt="Botella de Rosé de Pinot Noir" loading="lazy" src="imagenes/rose-vinos.png"/>
+      </div>
+      <div class="wine-product-content">
+       <h3>
+        Rosé de Pinot Noir
+       </h3>
+       <p>
+        Patagonia · Pinot Noir. Fresco, delicado y frutado, pensado para comenzar la experiencia o acompañar entradas ligeras.
+       </p>
+       <button class="btn add-wine" data-id="rose" type="button">
+        AGREGAR AL CARRITO
+       </button>
+      </div>
+     </article>
+     <article class="wine-product" data-id="brut">
+      <div class="wine-product-image">
+       <img alt="Botella de Brut Nature" loading="lazy" src="imagenes/espumante-vinos.png"/>
+      </div>
+      <div class="wine-product-content">
+       <h3>
+        Brut Nature
+       </h3>
+       <p>
+        Mendoza · Método tradicional. Seco, fresco y elegante, ideal como aperitivo o para acompañar los primeros pasos del menú degustación.
+       </p>
+       <button class="btn add-wine" data-id="brut" type="button">
+        AGREGAR AL CARRITO
+       </button>
+      </div>
+     </article>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <a class="footer-brand" href="index.html">
+    <img alt="El Umbral" src="imagenes/logo.png">
+    </img>
+   </a>
+   <span>
+    Cocina de autor argentina contemporánea
+   </span>
+  </footer>
+  <div class="cart-backdrop" hidden="" id="cart-backdrop">
+  </div>
+  <aside aria-hidden="true" aria-labelledby="cart-title" aria-modal="true" class="cart-panel" id="cart-panel" role="dialog" tabindex="-1">
+   <div class="cart-heading">
+    <h2 id="cart-title">
+     TU CARRITO
+    </h2>
+    <button aria-label="Cerrar carrito" class="cart-close" type="button">
+     ×
+    </button>
+   </div>
+   <div class="cart-items" id="cart-items">
+    <p>
+     Tu carrito está vacío.
+    </p>
+   </div>
+   <div class="cart-bottom">
+    <button aria-controls="checkout-options" aria-expanded="false" class="btn" id="continue-purchase" type="button">
+     CONTINUAR COMPRA
+    </button>
+    <div hidden="" id="checkout-options">
+     <label for="payment-method">
+      Método de pago
+     </label>
+     <select id="payment-method">
+      <option disabled="" selected="" value="">
+       Seleccioná una opción
+      </option>
+      <option value="transferencia">
+       Transferencia bancaria
+      </option>
+      <option value="mercado-pago">
+       Mercado Pago
+      </option>
+      <option value="efectivo">
+       Efectivo al retirar
+      </option>
+     </select>
+     <p aria-live="polite" hidden="" id="order-status" role="status">
+      Pedido simulado registrado. No se realizó ningún pago real.
+     </p>
+    </div>
+   </div>
+  </aside>
+  <script src="script.js">
+  </script>
+  <script src="vinos.js">
+  </script>
+ </body>
+</html>

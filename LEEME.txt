@@ -1,0 +1,27 @@
+EL UMBRAL — SITIO WEB
+
+1. Extraé el ZIP completo.
+2. En Visual Studio Code, abrí la carpeta El_Umbral_Web.
+3. Abrí index.html para ver los textos y etiquetas HTML ordenados.
+4. Abrí estilos.css para editar colores, tamaños, márgenes y diseño.
+5. Para ver el sitio, abrí index.html con Live Server o con tu navegador.
+6. Mantené la carpeta imagenes junto a los HTML.
+7. Las otras páginas son menu.html, sobrenosotros.html y reservas.html.
+8. El formulario de reservas no dispone de backend; prepara un correo.
+
+
+ACTUALIZACIÓN VINOS: abrir vinos.html desde Live Server. Incluye video seccion-vinos.mp4, carrito persistente en el navegador y formulario que prepara un email de solicitud de pedido. No cobra ni confirma compras; no hay precios definidos por el usuario ni pasarela de pagos conectada. Configurar precios, inventario, logística y Mercado Pago/otra pasarela con backend antes de venta real. Archivo menú.html adicional es alias de menu.html.
+
+
+ACTUALIZACIÓN SOLICITUD DE VINOS
+- El resumen de vinos y cantidades se rellena automáticamente desde el carrito.
+- Nombre, correo y teléfono pueden recuperarse de una solicitud previa en este navegador; la primera vez se ingresan manualmente. El navegador también puede ofrecer autocompletado.
+- «ABRIR CORREO CON MI PEDIDO» necesita una aplicación de correo configurada en el dispositivo.
+- «COPIAR PEDIDO» permite copiar el texto si el correo no se abre.
+- Este sitio estático no envía pedidos al restaurante por sí solo ni procesa pagos; requiere backend o servicio de ecommerce para eso.
+
+ACTUALIZACIÓN: Se eliminó el formulario emergente «Solicitud de compra».
+El carrito permite modificar cantidades, copiar el pedido o abrir un correo con los vinos seleccionados.
+No hay pago ni envío automático: requiere un servicio de checkout/backend para una venta real.
+
+ACTUALIZACIÓN: Se eliminó por completo el formulario «Solicitud de compra» y los botones para continuar/consultar pedidos. La sección VINOS conserva exclusivamente el carrito para agregar, quitar y modificar cantidades; no procesa pedidos ni pagos.
